@@ -3,7 +3,8 @@
 using namespace std;
 
 class mahasiwa {
-    public
+public : 
+    int nim;
 
 };
 
