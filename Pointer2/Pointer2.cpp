@@ -12,9 +12,9 @@ public :
 int main()
 {
     mahasiswa* Mhs = new mahasiswa{ 1 }; 
-    
-    pMhs->nim = 3;  //Arrow Operator
-    mhs.showNim();
+    Mhs->nim = 2;  
+    Mhs->showNim();
+    delete Mhs;
     system("pause");
     return 0;
 }
