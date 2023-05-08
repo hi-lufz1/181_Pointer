@@ -1,8 +1,8 @@
 
-#include <iostream>\
+#include <iostream>
 using namespace std;
 
-class mahasiwa {
+class mahasiswa {
 public : 
     int nim;
     void  showNim(); //deklarasi method
@@ -17,6 +17,7 @@ int main()
     mahasiswa mhs{ 1 }; //object mhs
     mhs.showNim(); //member acces operator
 
-    mahasiwa& ref = mhs; //pointer reference refMhs
+    mahasiswa& ref = mhs; //pointer reference refMhs
+
 }
 
