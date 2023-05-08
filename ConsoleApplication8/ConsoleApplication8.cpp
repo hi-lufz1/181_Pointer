@@ -5,8 +5,12 @@ using namespace std;
 class mahasiwa {
 public : 
     int nim;
-
+    void  showNim();
 };
+
+void mahasiswa::showNim() {
+    cout << "No Induk = "<< nim<<endl
+}
 
 int main()
 {
